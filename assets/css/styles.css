@@ -44,12 +44,12 @@ header{
 
 .ejercicios{
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columnas de igual tamaño */
+    grid-template-columns: repeat(4, 1fr); /* 3 columnas de igual tamaño */
     gap: 10px; /* Espacio entre los elementos */
 }
 
 .itemejercicios{
-    border: 164px solid white; /* Solo para visualización */
+    border: 90px solid white; /* Solo para visualización */
     padding: 10px; /* Solo para visualización */
 }
 
@@ -57,4 +57,5 @@ header{
     color: purple;
     font-weight: 700;
     font-size: 20px;
+    border: 10px solid purple;
 }
